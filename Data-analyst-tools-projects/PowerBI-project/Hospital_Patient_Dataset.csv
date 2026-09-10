@@ -1,0 +1,501 @@
+PatientID,Age,Gender,Department,AdmissionType,AdmissionDate,DischargeDate,LengthOfStay,TreatmentCost,IsReadmission,BedOccupied
+P1001,59,Female,Cardiology,Urgent,2024-11-23,2024-11-25,2,8526.78,0,1
+P1002,62,Male,General Medicine,Elective,2024-10-06,2024-10-08,2,4185.35,0,1
+P1003,45,Female,Orthopedics,Urgent,2024-01-14,2024-01-23,9,8476.52,0,0
+P1004,81,Female,Orthopedics,Urgent,2024-01-04,2024-01-17,13,10753.02,0,0
+P1005,40,Male,Cardiology,Elective,2024-06-21,2024-06-23,2,8958.46,0,1
+P1006,40,Male,Oncology,Urgent,2024-01-23,2024-02-04,12,18838.09,0,1
+P1007,54,Male,Neurology,Urgent,2024-11-17,2024-11-27,10,12861.65,1,1
+P1008,15,Female,Orthopedics,Emergency,2024-05-28,2024-05-30,2,6341.24,0,1
+P1009,29,Female,Orthopedics,Urgent,2024-07-08,2024-07-14,6,9041.49,0,1
+P1010,31,Male,General Medicine,Urgent,2024-11-21,2024-11-24,3,3089.93,0,0
+P1011,79,Female,General Medicine,Emergency,2024-11-23,2024-12-05,12,9332.8,0,1
+P1012,51,Female,Neurology,Elective,2024-01-17,2024-01-30,13,11231.81,0,1
+P1013,39,Female,Pediatrics,Elective,2024-06-10,2024-06-14,4,4770.95,0,1
+P1014,26,Female,Pediatrics,Urgent,2024-03-12,2024-03-16,4,4683.07,0,1
+P1015,37,Female,Orthopedics,Urgent,2024-07-04,2024-07-08,4,6799.61,1,1
+P1016,37,Male,Pediatrics,Elective,2024-11-17,2024-11-20,3,4487.86,0,1
+P1017,49,Male,Cardiology,Urgent,2024-05-08,2024-05-17,9,11725.3,0,1
+P1018,66,Female,Cardiology,Elective,2024-11-24,2024-11-30,6,8969.16,1,1
+P1019,54,Male,Orthopedics,Urgent,2024-05-14,2024-05-23,9,9954.03,0,1
+P1020,23,Male,Orthopedics,Elective,2024-11-07,2024-11-11,4,7761.44,0,1
+P1021,64,Male,Neurology,Elective,2024-01-01,2024-01-11,10,11533.16,0,0
+P1022,47,Male,Cardiology,Emergency,2024-06-06,2024-06-10,4,8786.49,0,1
+P1023,20,Female,Orthopedics,Emergency,2024-09-29,2024-10-12,13,13163.69,0,1
+P1024,40,Male,Orthopedics,Urgent,2024-11-06,2024-11-13,7,9924.82,0,1
+P1025,56,Male,General Medicine,Elective,2024-07-10,2024-07-18,8,4511.78,1,1
+P1026,56,Male,General Medicine,Emergency,2024-10-10,2024-10-14,4,3721.05,0,1
+P1027,36,Male,Neurology,Emergency,2024-01-17,2024-01-31,14,13665.31,0,1
+P1028,70,Female,Oncology,Emergency,2024-10-19,2024-10-29,10,17695.63,0,1
+P1029,33,Female,Oncology,Elective,2024-08-08,2024-08-14,6,15118.6,1,1
+P1030,56,Female,Cardiology,Elective,2024-11-26,2024-11-28,2,9528.25,1,1
+P1031,40,Male,Orthopedics,Elective,2024-10-01,2024-10-09,8,8398.51,0,0
+P1032,27,Male,General Medicine,Emergency,2024-08-14,2024-08-27,13,8393.05,0,1
+P1033,66,Female,Orthopedics,Emergency,2024-02-17,2024-03-01,13,11803.45,0,1
+P1034,48,Female,Oncology,Emergency,2024-01-31,2024-02-03,3,13420.01,0,1
+P1035,57,Female,Pediatrics,Urgent,2024-08-04,2024-08-16,12,5320.46,0,0
+P1036,57,Female,General Medicine,Emergency,2024-10-23,2024-11-04,12,6443.41,0,1
+P1037,49,Male,Cardiology,Urgent,2024-09-28,2024-10-01,3,10403.93,1,1
+P1038,1,Male,Cardiology,Urgent,2024-04-30,2024-05-07,7,11431.92,1,1
+P1039,51,Female,General Medicine,Urgent,2024-12-02,2024-12-12,10,8589.32,0,1
+P1040,51,Female,Oncology,Emergency,2024-05-02,2024-05-07,5,12920.66,0,0
+P1041,45,Male,General Medicine,Urgent,2024-01-05,2024-01-13,8,5012.99,0,1
+P1042,79,Female,Orthopedics,Elective,2024-06-27,2024-06-29,2,6267.06,0,1
+P1043,33,Male,Pediatrics,Urgent,2024-11-09,2024-11-22,13,8322.01,0,0
+P1044,68,Male,Neurology,Emergency,2024-02-23,2024-02-26,3,10655.28,0,1
+P1045,39,Female,Neurology,Emergency,2024-04-17,2024-04-29,12,14082.6,0,0
+P1046,51,Female,Pediatrics,Elective,2024-01-27,2024-01-29,2,3419.59,0,1
+P1047,35,Female,Pediatrics,Elective,2024-05-14,2024-05-17,3,3609.26,1,0
+P1048,42,Female,General Medicine,Emergency,2024-12-19,2024-12-22,3,3567.25,0,1
+P1049,55,Male,Cardiology,Elective,2024-06-06,2024-06-12,6,10967.49,0,1
+P1050,50,Male,Oncology,Urgent,2024-10-13,2024-10-27,14,19866.98,0,1
+P1051,21,Female,Cardiology,Emergency,2024-03-31,2024-04-07,7,11380.36,0,1
+P1052,43,Male,Orthopedics,Urgent,2024-05-07,2024-05-12,5,7363.94,1,1
+P1053,46,Female,Oncology,Elective,2024-04-12,2024-04-26,14,19597.03,0,1
+P1054,87,Female,Oncology,Elective,2024-12-03,2024-12-07,4,14270.25,0,1
+P1055,55,Female,Oncology,Urgent,2024-11-24,2024-12-03,9,17144.03,1,0
+P1056,11,Male,Neurology,Emergency,2024-04-01,2024-04-11,10,13373.03,0,0
+P1057,51,Female,General Medicine,Emergency,2024-08-11,2024-08-21,10,9829.64,0,1
+P1058,46,Male,General Medicine,Urgent,2024-08-11,2024-08-12,1,3496.46,1,1
+P1059,49,Male,Neurology,Urgent,2024-06-18,2024-06-28,10,13294.68,0,1
+P1060,72,Female,Oncology,Urgent,2024-07-28,2024-08-03,6,14906.56,0,1
+P1061,65,Female,Pediatrics,Emergency,2024-07-13,2024-07-24,11,6032.04,0,1
+P1062,78,Female,General Medicine,Urgent,2024-04-17,2024-04-24,7,5001.04,0,1
+P1063,61,Male,Pediatrics,Emergency,2024-08-30,2024-09-12,13,7670.92,0,1
+P1064,30,Female,Orthopedics,Urgent,2024-02-17,2024-03-02,14,9774.84,0,1
+P1065,51,Female,General Medicine,Emergency,2024-05-05,2024-05-13,8,5674.47,0,1
+P1066,18,Male,Oncology,Elective,2024-12-22,2024-12-29,7,13847.48,0,0
+P1067,28,Male,Oncology,Emergency,2024-02-24,2024-03-08,13,19018.17,0,1
+P1068,31,Male,Cardiology,Elective,2024-10-12,2024-10-16,4,10857.23,0,0
+P1069,34,Female,Oncology,Urgent,2024-10-31,2024-11-06,6,15032.34,0,0
+P1070,66,Female,Neurology,Emergency,2024-08-31,2024-09-08,8,12435.17,0,1
+P1071,54,Female,Cardiology,Urgent,2024-05-20,2024-05-28,8,11003.95,0,0
+P1072,17,Female,Orthopedics,Emergency,2024-02-11,2024-02-14,3,7525.06,0,1
+P1073,55,Female,General Medicine,Elective,2024-07-27,2024-08-02,6,4740.35,0,1
+P1074,25,Female,Cardiology,Urgent,2024-10-26,2024-11-07,12,12029.27,0,1
+P1075,60,Male,Oncology,Urgent,2024-07-18,2024-08-01,14,17682.58,0,1
+P1076,55,Female,Pediatrics,Urgent,2024-07-18,2024-07-24,6,5611.26,0,0
+P1077,36,Male,Cardiology,Elective,2024-11-14,2024-11-23,9,10218.34,0,0
+P1078,55,Female,Neurology,Elective,2024-04-03,2024-04-04,1,8927.49,0,1
+P1079,87,Male,Oncology,Elective,2024-07-13,2024-07-18,5,14177.53,0,1
+P1080,26,Male,Pediatrics,Emergency,2024-06-28,2024-07-02,4,4835.05,0,1
+P1081,30,Male,Orthopedics,Emergency,2024-01-11,2024-01-21,10,10287.79,1,0
+P1082,73,Male,Neurology,Elective,2024-08-26,2024-09-07,12,13897.94,0,1
+P1083,69,Male,Cardiology,Urgent,2024-03-24,2024-03-29,5,11064.16,0,0
+P1084,66,Male,Pediatrics,Emergency,2024-07-11,2024-07-18,7,6506.27,0,1
+P1085,45,Male,Neurology,Urgent,2024-12-22,2025-01-04,13,15363.51,0,1
+P1086,32,Male,Pediatrics,Elective,2024-09-29,2024-10-06,7,4908.79,0,0
+P1087,48,Female,Oncology,Elective,2024-09-07,2024-09-09,2,13136.42,0,1
+P1088,55,Female,General Medicine,Urgent,2024-11-29,2024-12-04,5,5343.34,0,1
+P1089,50,Female,Orthopedics,Emergency,2024-06-14,2024-06-28,14,14463.9,0,1
+P1090,44,Male,Oncology,Elective,2024-11-08,2024-11-19,11,17735.03,0,1
+P1091,62,Female,Neurology,Elective,2024-06-30,2024-07-13,13,15749.09,0,1
+P1092,28,Male,Orthopedics,Emergency,2024-01-06,2024-01-15,9,10633.5,0,1
+P1093,45,Female,Pediatrics,Urgent,2024-12-19,2024-12-27,8,5891.16,1,1
+P1094,59,Female,Orthopedics,Elective,2024-07-26,2024-08-07,12,10635.24,0,1
+P1095,33,Female,Neurology,Urgent,2024-10-08,2024-10-14,6,10092.78,0,1
+P1096,41,Male,Cardiology,Urgent,2024-04-08,2024-04-14,6,10087.9,0,1
+P1097,54,Female,General Medicine,Urgent,2024-10-28,2024-11-10,13,10075.79,0,1
+P1098,53,Male,Neurology,Emergency,2024-07-03,2024-07-06,3,10121.83,0,1
+P1099,32,Male,Pediatrics,Elective,2024-12-23,2024-12-26,3,4224.13,0,1
+P1100,51,Female,Orthopedics,Emergency,2024-08-13,2024-08-19,6,8887.07,0,0
+P1101,57,Male,Cardiology,Urgent,2024-07-24,2024-08-01,8,10365.92,0,0
+P1102,71,Female,Cardiology,Urgent,2024-02-13,2024-02-17,4,10297.01,0,1
+P1103,22,Female,Oncology,Elective,2024-09-24,2024-10-01,7,15339.55,0,1
+P1104,60,Male,General Medicine,Urgent,2024-11-13,2024-11-14,1,3835.93,0,1
+P1105,60,Male,Orthopedics,Emergency,2024-12-04,2024-12-06,2,8767.96,0,1
+P1106,61,Male,Oncology,Elective,2024-12-18,2024-12-28,10,15493.69,0,1
+P1107,69,Female,Pediatrics,Emergency,2024-08-20,2024-08-22,2,3855.96,0,1
+P1108,43,Male,Cardiology,Urgent,2024-04-11,2024-04-18,7,11592.86,0,0
+P1109,34,Female,Orthopedics,Elective,2024-02-06,2024-02-07,1,6257.25,0,1
+P1110,40,Female,General Medicine,Urgent,2024-07-25,2024-07-30,5,4916.45,0,0
+P1111,95,Male,Neurology,Emergency,2024-06-14,2024-06-24,10,10982.07,0,0
+P1112,63,Male,Pediatrics,Elective,2024-10-27,2024-10-28,1,2198.89,0,1
+P1113,40,Female,Orthopedics,Urgent,2024-08-14,2024-08-19,5,8814.04,0,1
+P1114,51,Male,Neurology,Elective,2024-06-27,2024-07-04,7,12262.78,0,1
+P1115,35,Male,Oncology,Urgent,2024-05-27,2024-06-07,11,16541.03,0,1
+P1116,35,Female,General Medicine,Emergency,2024-07-25,2024-08-08,14,8222.42,0,1
+P1117,50,Male,Oncology,Emergency,2024-09-12,2024-09-23,11,15049.25,0,1
+P1118,92,Male,Cardiology,Emergency,2024-12-23,2024-12-31,8,12188.26,0,1
+P1119,9,Female,Orthopedics,Emergency,2024-07-27,2024-07-29,2,7250.88,0,1
+P1120,36,Female,Pediatrics,Elective,2024-05-29,2024-06-07,9,7731.22,0,1
+P1121,34,Male,Oncology,Emergency,2024-10-09,2024-10-12,3,13579.46,0,0
+P1122,60,Male,General Medicine,Elective,2024-07-31,2024-08-06,6,5311.69,0,1
+P1123,25,Female,Orthopedics,Elective,2024-12-03,2024-12-11,8,8537.15,0,1
+P1124,40,Male,Orthopedics,Urgent,2024-08-21,2024-08-27,6,8245.65,0,1
+P1125,85,Female,Pediatrics,Elective,2024-01-23,2024-01-29,6,4829.08,0,0
+P1126,24,Female,Cardiology,Emergency,2024-03-18,2024-03-26,8,12841.97,0,1
+P1127,92,Male,Cardiology,Urgent,2024-09-26,2024-10-04,8,11428.16,0,1
+P1128,19,Female,Neurology,Elective,2024-08-28,2024-09-10,13,14737.03,0,0
+P1129,75,Female,Neurology,Urgent,2024-09-30,2024-10-07,7,12488.84,1,1
+P1130,58,Male,Neurology,Emergency,2024-11-19,2024-11-30,11,13496.79,1,1
+P1131,31,Female,Orthopedics,Urgent,2024-02-21,2024-02-29,8,10461.19,1,0
+P1132,1,Male,Neurology,Elective,2024-05-30,2024-06-05,6,10273.88,0,1
+P1133,44,Female,Orthopedics,Emergency,2024-04-02,2024-04-05,3,6719.76,0,0
+P1134,82,Female,Oncology,Urgent,2024-03-14,2024-03-18,4,12820.24,0,0
+P1135,41,Male,Pediatrics,Urgent,2024-08-26,2024-08-31,5,3713.09,0,0
+P1136,78,Female,Oncology,Urgent,2024-06-02,2024-06-13,11,15492.15,0,0
+P1137,73,Female,Orthopedics,Elective,2024-09-04,2024-09-06,2,6864.97,0,1
+P1138,30,Male,Neurology,Emergency,2024-12-03,2024-12-10,7,13180.78,0,0
+P1139,53,Female,Orthopedics,Urgent,2024-05-26,2024-06-08,13,9438.72,0,1
+P1140,51,Male,Orthopedics,Urgent,2024-12-03,2024-12-14,11,11982.32,0,1
+P1141,52,Male,General Medicine,Elective,2024-08-13,2024-08-14,1,3567.12,0,1
+P1142,81,Female,Orthopedics,Urgent,2024-03-30,2024-04-03,4,7030.46,0,0
+P1143,92,Female,Oncology,Elective,2024-05-11,2024-05-25,14,18327.66,0,1
+P1144,46,Female,Pediatrics,Urgent,2024-04-25,2024-05-09,14,11010.87,0,1
+P1145,55,Male,Neurology,Urgent,2024-07-21,2024-07-22,1,9070.56,0,1
+P1146,45,Male,Pediatrics,Elective,2024-10-26,2024-11-02,7,5543.04,0,1
+P1147,38,Male,General Medicine,Emergency,2024-10-14,2024-10-20,6,6149.77,0,1
+P1148,57,Male,Cardiology,Emergency,2024-11-28,2024-12-05,7,11703.08,0,1
+P1149,67,Female,General Medicine,Emergency,2024-02-19,2024-02-23,4,4679.48,0,1
+P1150,66,Male,General Medicine,Urgent,2024-10-03,2024-10-10,7,7193.97,0,0
+P1151,33,Female,Neurology,Emergency,2024-11-11,2024-11-18,7,10728.26,0,1
+P1152,64,Female,Pediatrics,Elective,2024-07-04,2024-07-06,2,3253.63,0,0
+P1153,49,Male,Pediatrics,Emergency,2024-08-20,2024-08-22,2,2999.13,0,0
+P1154,75,Male,Cardiology,Urgent,2024-10-16,2024-10-20,4,9442.43,0,1
+P1155,60,Female,General Medicine,Emergency,2024-03-16,2024-03-29,13,9962.62,0,1
+P1156,45,Male,Orthopedics,Emergency,2024-05-08,2024-05-21,13,9834.77,0,0
+P1157,66,Female,Cardiology,Emergency,2024-10-28,2024-11-03,6,9732.51,0,1
+P1158,76,Male,Oncology,Elective,2024-02-02,2024-02-10,8,15056.92,0,1
+P1159,63,Male,Neurology,Elective,2024-12-03,2024-12-12,9,10863.84,0,1
+P1160,56,Female,Oncology,Urgent,2024-12-17,2024-12-19,2,12393.72,1,1
+P1161,51,Female,Neurology,Urgent,2024-02-03,2024-02-06,3,10354.66,0,1
+P1162,33,Male,Oncology,Emergency,2024-09-15,2024-09-25,10,18457.36,0,1
+P1163,29,Female,Oncology,Emergency,2024-04-20,2024-04-27,7,13741.91,0,1
+P1164,73,Female,Oncology,Elective,2024-02-18,2024-02-24,6,14494.15,0,0
+P1165,62,Female,Cardiology,Emergency,2024-02-04,2024-02-06,2,8791.42,0,0
+P1166,49,Female,General Medicine,Urgent,2024-10-11,2024-10-12,1,3019.38,0,0
+P1167,51,Female,Pediatrics,Emergency,2024-08-04,2024-08-18,14,8323.72,0,1
+P1168,69,Male,Pediatrics,Elective,2024-04-18,2024-04-21,3,4043.2,0,1
+P1169,33,Male,Neurology,Urgent,2024-02-28,2024-03-12,13,15636.86,0,0
+P1170,58,Male,Pediatrics,Urgent,2024-11-14,2024-11-24,10,6654.12,0,1
+P1171,33,Female,Neurology,Urgent,2024-01-15,2024-01-18,3,10827.69,0,1
+P1172,54,Male,Pediatrics,Elective,2024-03-14,2024-03-24,10,4814.03,0,1
+P1173,40,Female,Oncology,Elective,2024-09-28,2024-10-02,4,13461.46,0,1
+P1174,21,Male,Cardiology,Emergency,2024-10-17,2024-10-27,10,9925.91,0,1
+P1175,35,Female,Pediatrics,Elective,2024-05-19,2024-05-27,8,5935.92,0,1
+P1176,56,Male,Neurology,Elective,2024-09-19,2024-09-21,2,10364.28,0,1
+P1177,67,Female,Cardiology,Emergency,2024-12-07,2024-12-12,5,10888.92,1,1
+P1178,49,Female,Orthopedics,Elective,2024-04-18,2024-05-01,13,9804.97,1,1
+P1179,49,Male,Oncology,Urgent,2024-03-30,2024-04-02,3,13055.99,0,0
+P1180,56,Female,Pediatrics,Emergency,2024-02-06,2024-02-13,7,3538.86,0,0
+P1181,60,Female,General Medicine,Elective,2024-10-21,2024-10-28,7,5977.01,0,0
+P1182,47,Female,General Medicine,Elective,2024-03-28,2024-04-10,13,6259.13,0,1
+P1183,63,Female,General Medicine,Emergency,2024-10-28,2024-11-04,7,6636.86,0,1
+P1184,54,Male,General Medicine,Urgent,2024-03-27,2024-03-29,2,3830.78,0,1
+P1185,51,Male,Pediatrics,Emergency,2024-06-28,2024-07-10,12,5006.96,0,1
+P1186,50,Male,Pediatrics,Emergency,2024-03-19,2024-04-01,13,10295.72,0,1
+P1187,79,Female,General Medicine,Elective,2024-10-15,2024-10-28,13,10573.72,0,1
+P1188,93,Female,Oncology,Urgent,2024-02-04,2024-02-12,8,15764.58,0,1
+P1189,67,Male,Oncology,Elective,2024-02-07,2024-02-12,5,13205.45,0,1
+P1190,93,Female,General Medicine,Urgent,2024-02-16,2024-02-26,10,6446.7,0,0
+P1191,33,Male,General Medicine,Urgent,2024-01-22,2024-01-30,8,5329.19,0,1
+P1192,7,Male,Cardiology,Elective,2024-02-01,2024-02-09,8,10951.68,0,1
+P1193,34,Male,General Medicine,Urgent,2024-08-12,2024-08-20,8,5839.67,0,1
+P1194,56,Female,General Medicine,Emergency,2024-06-22,2024-07-03,11,6428.1,1,1
+P1195,69,Male,Pediatrics,Urgent,2024-05-25,2024-05-30,5,3878.27,0,1
+P1196,32,Female,Pediatrics,Urgent,2024-06-28,2024-07-03,5,4003.86,0,1
+P1197,23,Male,Pediatrics,Elective,2024-10-13,2024-10-20,7,6692.06,0,1
+P1198,73,Female,Cardiology,Urgent,2024-12-16,2024-12-25,9,11395.97,1,1
+P1199,15,Male,Oncology,Emergency,2024-04-19,2024-04-25,6,16276.88,0,1
+P1200,47,Male,General Medicine,Urgent,2024-02-21,2024-03-01,9,7801.85,0,1
+P1201,18,Male,Orthopedics,Emergency,2024-11-01,2024-11-08,7,9428.08,0,0
+P1202,50,Female,Oncology,Emergency,2024-03-25,2024-04-06,12,16172.13,0,0
+P1203,40,Male,Pediatrics,Elective,2024-11-08,2024-11-13,5,4879.45,0,0
+P1204,28,Female,Orthopedics,Elective,2024-08-28,2024-09-11,14,11314.22,0,1
+P1205,52,Male,Orthopedics,Emergency,2024-09-27,2024-10-04,7,10101.62,1,1
+P1206,64,Male,Cardiology,Urgent,2024-07-09,2024-07-18,9,10263.91,0,1
+P1207,19,Male,Oncology,Emergency,2024-09-19,2024-09-22,3,14218.88,0,0
+P1208,56,Female,Oncology,Urgent,2024-07-31,2024-08-01,1,11920.07,0,1
+P1209,81,Female,Cardiology,Urgent,2024-01-15,2024-01-21,6,11157.15,0,1
+P1210,73,Female,Orthopedics,Urgent,2024-08-29,2024-09-10,12,10587.05,1,1
+P1211,91,Female,Orthopedics,Urgent,2024-05-11,2024-05-15,4,7855.57,0,1
+P1212,45,Female,Oncology,Urgent,2024-01-25,2024-01-29,4,13386.28,0,1
+P1213,62,Male,Pediatrics,Urgent,2024-10-01,2024-10-02,1,3671.73,0,1
+P1214,30,Male,General Medicine,Elective,2024-06-29,2024-07-03,4,5206.02,1,0
+P1215,71,Male,General Medicine,Urgent,2024-02-04,2024-02-13,9,5326.26,0,1
+P1216,26,Female,Pediatrics,Emergency,2024-07-10,2024-07-15,5,4057.42,0,1
+P1217,44,Female,General Medicine,Urgent,2024-11-17,2024-11-19,2,3865.5,0,1
+P1218,80,Female,Pediatrics,Elective,2024-11-25,2024-11-28,3,3895.13,0,1
+P1219,82,Male,Neurology,Emergency,2024-08-22,2024-08-23,1,8826.39,0,1
+P1220,15,Female,Oncology,Urgent,2024-06-07,2024-06-16,9,14684.16,0,1
+P1221,57,Female,Cardiology,Urgent,2024-07-01,2024-07-15,14,12313.67,0,1
+P1222,8,Female,Oncology,Elective,2024-07-23,2024-08-04,12,19029.31,0,1
+P1223,23,Female,Cardiology,Urgent,2024-09-22,2024-09-27,5,9492.69,0,0
+P1224,57,Male,Neurology,Emergency,2024-10-06,2024-10-11,5,10185.9,0,1
+P1225,39,Female,Pediatrics,Elective,2024-08-06,2024-08-09,3,3106.95,0,0
+P1226,48,Male,Neurology,Urgent,2024-11-10,2024-11-17,7,11087.69,0,1
+P1227,30,Female,Cardiology,Emergency,2024-12-13,2024-12-16,3,8893.78,1,1
+P1228,39,Male,Oncology,Urgent,2024-07-06,2024-07-12,6,14255.79,0,0
+P1229,47,Male,Cardiology,Urgent,2024-07-09,2024-07-17,8,10776.65,0,1
+P1230,38,Male,Cardiology,Urgent,2024-05-07,2024-05-09,2,8200.3,0,1
+P1231,89,Female,Neurology,Urgent,2024-05-14,2024-05-27,13,12733.4,0,1
+P1232,36,Male,Cardiology,Emergency,2024-09-08,2024-09-12,4,9630.26,0,1
+P1233,47,Female,Pediatrics,Elective,2024-02-14,2024-02-27,13,8679.13,0,1
+P1234,62,Male,Orthopedics,Urgent,2024-06-02,2024-06-16,14,13623.45,0,1
+P1235,39,Female,Orthopedics,Emergency,2024-04-12,2024-04-25,13,8448.77,0,1
+P1236,44,Male,General Medicine,Emergency,2024-10-09,2024-10-12,3,2820.19,0,1
+P1237,19,Male,Oncology,Urgent,2024-09-26,2024-10-03,7,14434.35,0,1
+P1238,82,Male,General Medicine,Elective,2024-08-26,2024-09-06,11,8938.51,0,1
+P1239,61,Male,Orthopedics,Elective,2024-04-03,2024-04-16,13,13078.86,0,1
+P1240,95,Female,Pediatrics,Emergency,2024-03-23,2024-03-29,6,6533.75,0,1
+P1241,47,Female,Orthopedics,Urgent,2024-02-10,2024-02-15,5,6772.57,0,1
+P1242,17,Male,Orthopedics,Urgent,2024-09-14,2024-09-25,11,9055.01,0,0
+P1243,34,Male,General Medicine,Emergency,2024-06-21,2024-07-05,14,5543.72,0,1
+P1244,37,Female,Orthopedics,Urgent,2024-05-15,2024-05-26,11,10378.9,1,0
+P1245,83,Female,Pediatrics,Elective,2024-10-06,2024-10-11,5,4430.58,0,1
+P1246,49,Male,Pediatrics,Emergency,2024-08-20,2024-08-22,2,3991.66,0,1
+P1247,51,Female,Neurology,Urgent,2024-11-06,2024-11-09,3,10050.4,0,0
+P1248,80,Male,Neurology,Urgent,2024-03-07,2024-03-20,13,13528.86,0,1
+P1249,29,Female,Cardiology,Emergency,2024-05-06,2024-05-09,3,9639.29,0,1
+P1250,32,Female,Neurology,Urgent,2024-03-22,2024-04-05,14,12171.67,0,0
+P1251,68,Male,Neurology,Elective,2024-08-27,2024-09-04,8,11842.87,0,1
+P1252,22,Male,General Medicine,Elective,2024-05-03,2024-05-07,4,4162.35,0,0
+P1253,36,Male,Oncology,Elective,2024-11-30,2024-12-11,11,17684.0,0,0
+P1254,38,Male,Oncology,Elective,2024-07-06,2024-07-19,13,16251.03,0,1
+P1255,50,Female,Cardiology,Elective,2024-10-10,2024-10-15,5,10113.33,0,0
+P1256,55,Male,Cardiology,Emergency,2024-12-14,2024-12-24,10,11550.5,0,1
+P1257,45,Female,Orthopedics,Emergency,2024-07-06,2024-07-19,13,10746.62,1,1
+P1258,38,Female,Oncology,Urgent,2024-06-19,2024-07-02,13,15752.19,0,1
+P1259,60,Female,Orthopedics,Elective,2024-11-09,2024-11-15,6,8136.16,0,1
+P1260,51,Female,General Medicine,Elective,2024-09-07,2024-09-19,12,9691.29,0,1
+P1261,16,Male,Neurology,Urgent,2024-08-01,2024-08-11,10,13659.32,0,1
+P1262,36,Male,Orthopedics,Urgent,2024-10-23,2024-11-02,10,10619.39,0,1
+P1263,34,Male,Oncology,Emergency,2024-11-13,2024-11-26,13,13861.73,0,1
+P1264,17,Male,Neurology,Elective,2024-01-10,2024-01-18,8,11945.51,0,1
+P1265,55,Male,Pediatrics,Urgent,2024-11-09,2024-11-17,8,5906.32,0,1
+P1266,62,Female,General Medicine,Elective,2024-12-05,2024-12-13,8,6830.63,0,1
+P1267,48,Female,Pediatrics,Urgent,2024-10-06,2024-10-12,6,4558.68,0,1
+P1268,36,Female,Orthopedics,Elective,2024-10-12,2024-10-17,5,8433.5,0,1
+P1269,32,Female,General Medicine,Urgent,2024-09-02,2024-09-08,6,4698.42,0,1
+P1270,70,Female,Neurology,Emergency,2024-07-21,2024-08-04,14,11747.13,0,1
+P1271,66,Female,Neurology,Urgent,2024-08-14,2024-08-25,11,11576.69,0,1
+P1272,60,Male,Neurology,Emergency,2024-10-14,2024-10-26,12,15076.03,0,1
+P1273,1,Male,Orthopedics,Urgent,2024-12-08,2024-12-17,9,7590.52,0,1
+P1274,61,Male,Orthopedics,Emergency,2024-02-21,2024-03-03,11,9888.87,0,0
+P1275,57,Female,Orthopedics,Elective,2024-09-01,2024-09-12,11,9153.83,1,1
+P1276,51,Male,Orthopedics,Urgent,2024-11-29,2024-12-09,10,11575.08,0,0
+P1277,73,Male,Oncology,Elective,2024-03-31,2024-04-01,1,12701.85,0,0
+P1278,56,Male,Neurology,Urgent,2024-01-20,2024-01-21,1,9365.44,0,1
+P1279,40,Male,General Medicine,Elective,2024-11-24,2024-12-03,9,7647.54,0,1
+P1280,57,Female,Orthopedics,Urgent,2024-02-27,2024-03-04,6,8545.39,0,1
+P1281,55,Male,Neurology,Urgent,2024-06-21,2024-07-04,13,13550.27,0,0
+P1282,67,Female,Neurology,Emergency,2024-08-06,2024-08-15,9,13046.31,0,1
+P1283,74,Female,Cardiology,Elective,2024-06-14,2024-06-18,4,8972.8,0,0
+P1284,9,Male,Pediatrics,Urgent,2024-06-03,2024-06-13,10,5042.17,0,1
+P1285,12,Male,Oncology,Elective,2024-12-07,2024-12-09,2,12548.58,0,0
+P1286,50,Male,Neurology,Urgent,2024-12-26,2025-01-08,13,15759.52,0,1
+P1287,56,Male,Orthopedics,Elective,2024-04-23,2024-04-27,4,7418.42,0,1
+P1288,66,Male,Oncology,Urgent,2024-12-25,2025-01-03,9,15437.13,0,1
+P1289,54,Female,Oncology,Urgent,2024-02-11,2024-02-20,9,14466.6,0,1
+P1290,20,Male,Orthopedics,Urgent,2024-10-07,2024-10-16,9,8964.21,0,1
+P1291,56,Female,Pediatrics,Urgent,2024-12-14,2024-12-18,4,3237.86,0,0
+P1292,62,Female,General Medicine,Elective,2024-08-20,2024-08-23,3,5412.04,0,1
+P1293,53,Female,Cardiology,Elective,2024-06-06,2024-06-18,12,14443.09,0,1
+P1294,40,Male,Neurology,Urgent,2024-01-24,2024-01-31,7,11490.34,1,0
+P1295,66,Male,Neurology,Elective,2024-08-29,2024-08-30,1,9079.55,0,0
+P1296,51,Female,Neurology,Elective,2024-11-26,2024-12-03,7,12596.11,0,1
+P1297,59,Female,General Medicine,Emergency,2024-12-15,2024-12-26,11,5888.82,0,1
+P1298,70,Male,Orthopedics,Emergency,2024-03-06,2024-03-18,12,12841.75,0,1
+P1299,44,Male,Oncology,Emergency,2024-08-05,2024-08-14,9,14968.87,0,1
+P1300,41,Male,Pediatrics,Elective,2024-02-27,2024-02-28,1,2984.92,1,1
+P1301,65,Male,Pediatrics,Urgent,2024-08-16,2024-08-26,10,5017.85,1,1
+P1302,67,Female,Cardiology,Emergency,2024-10-03,2024-10-07,4,9852.48,0,1
+P1303,58,Male,Pediatrics,Elective,2024-10-22,2024-11-01,10,6645.46,0,1
+P1304,34,Male,Neurology,Elective,2024-04-23,2024-04-30,7,11336.48,0,1
+P1305,14,Female,Pediatrics,Elective,2024-03-30,2024-04-10,11,5654.31,0,1
+P1306,63,Female,General Medicine,Elective,2024-07-14,2024-07-27,13,7695.16,0,1
+P1307,55,Female,Orthopedics,Emergency,2024-10-02,2024-10-10,8,9781.39,0,1
+P1308,95,Male,Oncology,Elective,2024-01-30,2024-02-08,9,15262.92,0,1
+P1309,52,Male,Neurology,Emergency,2024-02-10,2024-02-18,8,11127.8,0,1
+P1310,59,Male,Cardiology,Emergency,2024-01-21,2024-02-04,14,13596.55,0,1
+P1311,34,Male,Orthopedics,Urgent,2024-01-08,2024-01-12,4,8230.74,0,0
+P1312,87,Female,Pediatrics,Emergency,2024-12-22,2025-01-01,10,8833.22,0,1
+P1313,81,Female,General Medicine,Urgent,2024-07-13,2024-07-21,8,5331.34,0,0
+P1314,30,Female,Pediatrics,Elective,2024-08-26,2024-08-28,2,3568.57,0,1
+P1315,51,Male,Orthopedics,Urgent,2024-10-15,2024-10-29,14,9437.93,0,1
+P1316,16,Female,Orthopedics,Emergency,2024-08-01,2024-08-06,5,8224.81,0,1
+P1317,46,Female,Pediatrics,Elective,2024-10-08,2024-10-19,11,7845.35,0,1
+P1318,29,Female,Orthopedics,Urgent,2024-09-08,2024-09-16,8,7314.22,0,1
+P1319,66,Male,Cardiology,Urgent,2024-10-04,2024-10-15,11,13928.56,1,0
+P1320,24,Male,Cardiology,Elective,2024-01-25,2024-02-07,13,14333.69,0,1
+P1321,43,Female,General Medicine,Elective,2024-01-05,2024-01-09,4,4731.23,0,0
+P1322,44,Male,Oncology,Emergency,2024-09-04,2024-09-15,11,15790.16,0,1
+P1323,45,Female,Neurology,Emergency,2024-05-20,2024-05-29,9,13565.84,0,1
+P1324,1,Male,Orthopedics,Emergency,2024-02-19,2024-02-28,9,10004.06,0,1
+P1325,45,Female,Neurology,Elective,2024-07-22,2024-07-24,2,10200.1,0,1
+P1326,86,Male,Cardiology,Urgent,2024-12-16,2024-12-30,14,11886.89,0,1
+P1327,44,Male,Cardiology,Urgent,2024-01-29,2024-02-09,11,10010.56,0,1
+P1328,95,Male,Cardiology,Urgent,2024-06-18,2024-06-28,10,10948.68,0,1
+P1329,50,Male,Neurology,Emergency,2024-10-17,2024-10-25,8,12778.11,0,1
+P1330,53,Male,Orthopedics,Elective,2024-12-02,2024-12-03,1,6512.41,0,1
+P1331,38,Female,Oncology,Emergency,2024-12-30,2025-01-13,14,15436.29,0,0
+P1332,49,Female,General Medicine,Elective,2024-07-18,2024-07-29,11,8252.97,0,0
+P1333,35,Male,Pediatrics,Elective,2024-02-10,2024-02-19,9,4704.88,0,1
+P1334,44,Female,General Medicine,Urgent,2024-11-05,2024-11-18,13,11390.38,0,1
+P1335,1,Female,Orthopedics,Elective,2024-08-18,2024-08-26,8,9527.67,0,1
+P1336,74,Male,General Medicine,Elective,2024-02-13,2024-02-26,13,8271.47,1,1
+P1337,43,Female,Pediatrics,Emergency,2024-12-30,2025-01-12,13,6561.01,1,1
+P1338,21,Male,Neurology,Elective,2024-06-06,2024-06-14,8,10635.11,0,1
+P1339,27,Male,Oncology,Emergency,2024-10-11,2024-10-20,9,14998.76,0,1
+P1340,68,Female,Oncology,Emergency,2024-06-15,2024-06-29,14,17753.11,0,1
+P1341,64,Male,General Medicine,Urgent,2024-10-13,2024-10-17,4,4331.98,0,1
+P1342,39,Male,Orthopedics,Emergency,2024-05-17,2024-05-25,8,9235.65,0,1
+P1343,25,Female,Neurology,Emergency,2024-02-09,2024-02-15,6,11981.63,0,1
+P1344,45,Female,Oncology,Elective,2024-06-04,2024-06-05,1,12334.22,0,1
+P1345,64,Female,Orthopedics,Elective,2024-11-29,2024-12-09,10,10634.98,0,1
+P1346,42,Female,Neurology,Elective,2024-03-31,2024-04-07,7,13689.4,0,1
+P1347,28,Male,Oncology,Elective,2024-05-23,2024-06-06,14,20327.54,0,0
+P1348,61,Female,General Medicine,Emergency,2024-04-02,2024-04-13,11,9194.32,0,0
+P1349,56,Female,Oncology,Urgent,2024-12-20,2024-12-22,2,11885.79,0,1
+P1350,68,Male,Oncology,Elective,2024-03-19,2024-03-31,12,16463.07,0,1
+P1351,39,Male,Pediatrics,Elective,2024-09-30,2024-10-09,9,7671.1,0,0
+P1352,35,Male,Pediatrics,Emergency,2024-10-01,2024-10-11,10,6871.59,0,1
+P1353,18,Female,Cardiology,Urgent,2024-11-27,2024-12-07,10,14170.25,0,0
+P1354,24,Male,Cardiology,Elective,2024-02-24,2024-02-25,1,9281.67,0,1
+P1355,8,Female,Oncology,Elective,2024-10-21,2024-10-25,4,14389.13,0,1
+P1356,54,Male,Cardiology,Elective,2024-03-18,2024-03-24,6,9860.68,0,1
+P1357,39,Female,Neurology,Elective,2024-03-13,2024-03-19,6,12281.82,0,1
+P1358,49,Female,Pediatrics,Urgent,2024-02-19,2024-02-27,8,5672.16,0,0
+P1359,52,Male,Neurology,Urgent,2024-02-28,2024-02-29,1,9546.01,0,0
+P1360,42,Male,Orthopedics,Urgent,2024-05-04,2024-05-13,9,8963.09,0,1
+P1361,56,Female,Orthopedics,Emergency,2024-07-26,2024-08-06,11,9085.48,0,0
+P1362,23,Male,Oncology,Elective,2024-08-18,2024-08-28,10,17190.57,0,1
+P1363,53,Male,Cardiology,Urgent,2024-02-02,2024-02-12,10,11371.18,0,1
+P1364,50,Female,Oncology,Urgent,2024-12-09,2024-12-23,14,18316.83,0,1
+P1365,39,Male,Oncology,Urgent,2024-06-27,2024-07-03,6,14763.82,0,1
+P1366,53,Male,Cardiology,Urgent,2024-11-10,2024-11-20,10,10763.56,0,1
+P1367,58,Female,Orthopedics,Urgent,2024-07-10,2024-07-22,12,9556.26,0,1
+P1368,70,Male,Pediatrics,Urgent,2024-04-05,2024-04-13,8,6112.02,0,1
+P1369,55,Male,Oncology,Urgent,2024-06-10,2024-06-24,14,20138.27,0,1
+P1370,83,Female,Oncology,Urgent,2024-04-09,2024-04-23,14,17598.34,0,1
+P1371,13,Male,Orthopedics,Emergency,2024-08-15,2024-08-23,8,9507.03,0,1
+P1372,37,Female,Neurology,Emergency,2024-04-25,2024-05-04,9,12849.39,0,1
+P1373,60,Female,General Medicine,Emergency,2024-09-18,2024-09-20,2,3657.22,0,1
+P1374,53,Male,Pediatrics,Elective,2024-01-22,2024-02-04,13,9869.14,1,0
+P1375,37,Female,Cardiology,Elective,2024-05-06,2024-05-11,5,8993.82,0,1
+P1376,31,Female,Orthopedics,Emergency,2024-03-01,2024-03-14,13,12401.61,0,1
+P1377,30,Male,Orthopedics,Emergency,2024-11-11,2024-11-14,3,7810.91,0,1
+P1378,31,Female,Pediatrics,Elective,2024-03-27,2024-04-02,6,6390.76,0,1
+P1379,59,Female,Cardiology,Emergency,2024-12-13,2024-12-27,14,16037.52,0,0
+P1380,32,Male,Orthopedics,Emergency,2024-03-05,2024-03-17,12,12164.85,0,1
+P1381,38,Female,Oncology,Emergency,2024-12-12,2024-12-19,7,15218.88,0,1
+P1382,95,Female,General Medicine,Urgent,2024-02-17,2024-02-24,7,6297.14,0,1
+P1383,72,Male,General Medicine,Emergency,2024-09-06,2024-09-12,6,5602.65,0,1
+P1384,49,Female,Cardiology,Urgent,2024-07-02,2024-07-16,14,12905.25,0,1
+P1385,37,Male,Neurology,Elective,2024-05-17,2024-05-23,6,12464.97,0,1
+P1386,64,Male,Cardiology,Emergency,2024-12-15,2024-12-28,13,13574.9,0,1
+P1387,62,Female,Oncology,Emergency,2024-03-21,2024-03-29,8,14733.7,0,1
+P1388,62,Male,Orthopedics,Elective,2024-11-28,2024-12-03,5,7524.06,0,1
+P1389,35,Female,Cardiology,Elective,2024-11-28,2024-12-01,3,9347.43,0,1
+P1390,48,Male,Cardiology,Emergency,2024-02-16,2024-02-28,12,12999.01,0,1
+P1391,53,Female,Cardiology,Emergency,2024-12-14,2024-12-22,8,11547.08,0,1
+P1392,57,Female,Cardiology,Emergency,2024-03-08,2024-03-16,8,10191.15,0,1
+P1393,61,Male,Orthopedics,Elective,2024-07-07,2024-07-12,5,8823.54,0,1
+P1394,66,Male,General Medicine,Urgent,2024-10-15,2024-10-16,1,3605.63,0,1
+P1395,48,Female,General Medicine,Urgent,2024-03-18,2024-03-25,7,5977.41,1,1
+P1396,58,Female,Pediatrics,Elective,2024-03-04,2024-03-14,10,8456.84,0,1
+P1397,55,Female,Cardiology,Emergency,2024-05-21,2024-06-01,11,12989.09,0,0
+P1398,28,Male,Orthopedics,Urgent,2024-12-03,2024-12-08,5,9022.26,0,1
+P1399,49,Male,Oncology,Emergency,2024-05-02,2024-05-10,8,15539.41,0,1
+P1400,50,Female,Neurology,Emergency,2024-01-07,2024-01-13,6,12280.83,0,1
+P1401,68,Male,Oncology,Emergency,2024-12-15,2024-12-18,3,13046.81,1,1
+P1402,51,Female,Oncology,Urgent,2024-01-31,2024-02-13,13,17637.43,0,1
+P1403,41,Male,Cardiology,Urgent,2024-12-25,2025-01-01,7,10022.32,0,1
+P1404,54,Female,Orthopedics,Urgent,2024-04-14,2024-04-27,13,10392.43,0,0
+P1405,75,Female,Cardiology,Elective,2024-12-14,2024-12-25,11,12964.51,0,1
+P1406,46,Male,Cardiology,Elective,2024-02-14,2024-02-21,7,10046.15,0,1
+P1407,78,Male,Pediatrics,Emergency,2024-03-02,2024-03-03,1,2863.81,0,1
+P1408,70,Female,Neurology,Emergency,2024-05-12,2024-05-15,3,9736.74,1,0
+P1409,55,Male,Oncology,Elective,2024-06-20,2024-07-03,13,16412.15,0,1
+P1410,51,Male,General Medicine,Elective,2024-09-11,2024-09-19,8,6731.49,0,1
+P1411,39,Male,Cardiology,Urgent,2024-05-10,2024-05-23,13,12492.38,0,1
+P1412,95,Female,Cardiology,Elective,2024-01-07,2024-01-11,4,9231.35,0,0
+P1413,41,Female,Pediatrics,Urgent,2024-01-19,2024-01-28,9,5834.95,0,0
+P1414,81,Female,Cardiology,Urgent,2024-06-12,2024-06-17,5,8977.37,0,1
+P1415,41,Female,General Medicine,Emergency,2024-04-24,2024-05-07,13,5817.53,0,1
+P1416,23,Female,Cardiology,Urgent,2024-06-08,2024-06-14,6,8759.8,0,1
+P1417,29,Female,General Medicine,Emergency,2024-06-04,2024-06-16,12,6783.81,0,0
+P1418,49,Male,General Medicine,Emergency,2024-04-10,2024-04-22,12,5547.72,0,1
+P1419,81,Female,Pediatrics,Emergency,2024-06-26,2024-07-07,11,4207.26,0,0
+P1420,69,Male,Orthopedics,Urgent,2024-06-06,2024-06-08,2,6628.86,0,0
+P1421,49,Male,Neurology,Emergency,2024-03-13,2024-03-25,12,16159.53,0,1
+P1422,27,Male,Oncology,Urgent,2024-12-24,2024-12-30,6,14785.05,0,1
+P1423,53,Male,General Medicine,Urgent,2024-07-20,2024-07-22,2,3994.21,0,1
+P1424,55,Female,Neurology,Elective,2024-05-13,2024-05-27,14,14808.77,0,1
+P1425,37,Male,General Medicine,Emergency,2024-04-13,2024-04-16,3,3461.29,0,1
+P1426,37,Female,Neurology,Emergency,2024-03-02,2024-03-11,9,11632.17,0,1
+P1427,37,Male,Pediatrics,Elective,2024-03-21,2024-04-03,13,6812.62,0,1
+P1428,78,Male,Neurology,Elective,2024-12-30,2025-01-03,4,10598.12,0,0
+P1429,33,Male,Oncology,Urgent,2024-01-16,2024-01-23,7,13900.94,1,0
+P1430,38,Male,Cardiology,Emergency,2024-03-03,2024-03-04,1,8595.72,0,1
+P1431,54,Female,General Medicine,Urgent,2024-11-26,2024-11-28,2,3376.07,1,0
+P1432,80,Male,Oncology,Emergency,2024-04-11,2024-04-22,11,19080.28,0,1
+P1433,37,Female,Cardiology,Emergency,2024-01-22,2024-01-30,8,12035.54,0,1
+P1434,55,Male,Orthopedics,Elective,2024-12-15,2024-12-22,7,10110.48,0,1
+P1435,63,Male,General Medicine,Urgent,2024-03-17,2024-03-18,1,4464.01,0,0
+P1436,46,Female,Cardiology,Elective,2024-09-02,2024-09-03,1,7855.75,0,0
+P1437,22,Male,Pediatrics,Urgent,2024-09-26,2024-09-30,4,4517.58,0,1
+P1438,49,Female,Oncology,Elective,2024-10-05,2024-10-18,13,17516.86,0,1
+P1439,39,Female,Neurology,Emergency,2024-04-22,2024-04-23,1,9523.67,0,0
+P1440,49,Male,Orthopedics,Urgent,2024-03-22,2024-03-24,2,7207.42,0,0
+P1441,95,Female,Orthopedics,Urgent,2024-01-29,2024-02-11,13,10179.55,0,0
+P1442,40,Female,General Medicine,Elective,2024-03-31,2024-04-04,4,5784.45,1,1
+P1443,63,Male,Orthopedics,Urgent,2024-10-17,2024-10-27,10,12270.14,0,0
+P1444,61,Male,Orthopedics,Elective,2024-10-04,2024-10-09,5,7000.87,0,1
+P1445,61,Male,Cardiology,Elective,2024-09-26,2024-10-04,8,12734.98,0,1
+P1446,66,Male,Cardiology,Emergency,2024-06-14,2024-06-15,1,8763.38,0,0
+P1447,71,Female,Pediatrics,Urgent,2024-02-07,2024-02-13,6,5691.09,0,1
+P1448,77,Female,Oncology,Urgent,2024-03-21,2024-04-02,12,17840.42,0,0
+P1449,46,Male,Neurology,Emergency,2024-12-21,2024-12-31,10,12586.89,0,1
+P1450,74,Female,Cardiology,Urgent,2024-03-31,2024-04-12,12,14075.17,0,1
+P1451,57,Male,Neurology,Urgent,2024-04-03,2024-04-13,10,13361.92,1,1
+P1452,50,Female,Cardiology,Emergency,2024-06-18,2024-06-30,12,15754.65,0,0
+P1453,53,Female,Pediatrics,Urgent,2024-02-15,2024-02-29,14,7824.35,0,1
+P1454,22,Male,Neurology,Emergency,2024-02-04,2024-02-10,6,10688.68,0,1
+P1455,62,Female,Oncology,Elective,2024-03-26,2024-04-02,7,16010.49,1,1
+P1456,43,Male,Pediatrics,Emergency,2024-10-22,2024-11-02,11,6795.24,0,1
+P1457,54,Male,Neurology,Emergency,2024-01-11,2024-01-17,6,11809.07,0,1
+P1458,48,Female,Cardiology,Elective,2024-02-08,2024-02-17,9,12475.73,0,1
+P1459,62,Male,Orthopedics,Emergency,2024-11-06,2024-11-13,7,8420.37,0,1
+P1460,41,Female,Pediatrics,Urgent,2024-10-10,2024-10-22,12,8167.91,0,1
+P1461,71,Male,General Medicine,Elective,2024-07-20,2024-07-30,10,4704.76,1,1
+P1462,52,Male,General Medicine,Elective,2024-12-04,2024-12-15,11,5276.68,0,1
+P1463,73,Female,Cardiology,Elective,2024-02-11,2024-02-19,8,10345.43,0,1
+P1464,38,Female,Oncology,Emergency,2024-11-24,2024-12-03,9,17176.38,0,1
+P1465,81,Male,Oncology,Elective,2024-05-14,2024-05-22,8,16245.78,0,1
+P1466,38,Female,Cardiology,Emergency,2024-12-22,2025-01-02,11,14696.57,0,1
+P1467,21,Female,Cardiology,Elective,2024-04-26,2024-05-05,9,12176.86,0,0
+P1468,58,Male,Oncology,Elective,2024-10-20,2024-10-24,4,13180.66,0,1
+P1469,29,Male,General Medicine,Urgent,2024-10-19,2024-10-28,9,5587.19,0,1
+P1470,54,Male,Orthopedics,Emergency,2024-03-26,2024-03-30,4,7195.36,0,1
+P1471,24,Female,General Medicine,Elective,2024-11-17,2024-11-20,3,5129.19,0,1
+P1472,63,Female,Oncology,Urgent,2024-07-17,2024-07-26,9,16834.26,0,0
+P1473,86,Female,Pediatrics,Urgent,2024-01-07,2024-01-20,13,5150.06,0,1
+P1474,19,Male,Cardiology,Emergency,2024-10-25,2024-11-07,13,14339.92,0,0
+P1475,49,Female,Oncology,Urgent,2024-07-29,2024-08-03,5,14265.72,0,1
+P1476,45,Female,General Medicine,Urgent,2024-07-25,2024-07-28,3,3822.57,0,1
+P1477,24,Female,Pediatrics,Elective,2024-05-01,2024-05-02,1,3780.69,1,0
+P1478,48,Male,Neurology,Elective,2024-06-04,2024-06-09,5,12503.64,0,1
+P1479,56,Female,Neurology,Elective,2024-08-14,2024-08-27,13,14974.27,1,1
+P1480,61,Female,Oncology,Urgent,2024-07-27,2024-08-08,12,18564.74,0,1
+P1481,62,Male,General Medicine,Elective,2024-06-08,2024-06-20,12,9811.06,0,1
+P1482,53,Male,Orthopedics,Emergency,2024-03-29,2024-04-02,4,7207.42,1,1
+P1483,48,Female,Neurology,Elective,2024-04-11,2024-04-16,5,11990.88,0,1
+P1484,36,Male,General Medicine,Elective,2024-07-09,2024-07-17,8,8574.14,0,1
+P1485,49,Male,Neurology,Urgent,2024-06-25,2024-06-28,3,9226.7,0,1
+P1486,52,Male,Orthopedics,Emergency,2024-10-19,2024-11-01,13,11783.49,0,1
+P1487,66,Female,Pediatrics,Emergency,2024-01-11,2024-01-25,14,10078.17,0,1
+P1488,41,Female,Neurology,Urgent,2024-01-05,2024-01-09,4,9995.61,0,1
+P1489,40,Female,Neurology,Elective,2024-07-11,2024-07-25,14,11810.03,0,1
+P1490,18,Male,General Medicine,Emergency,2024-11-15,2024-11-22,7,6212.45,0,0
+P1491,65,Female,Pediatrics,Urgent,2024-07-10,2024-07-19,9,5587.24,1,1
+P1492,30,Female,Neurology,Elective,2024-05-21,2024-06-01,11,14063.07,0,1
+P1493,49,Male,General Medicine,Emergency,2024-04-06,2024-04-09,3,3987.33,0,1
+P1494,80,Male,Pediatrics,Emergency,2024-12-04,2024-12-10,6,5711.64,0,1
+P1495,45,Male,Oncology,Urgent,2024-08-02,2024-08-09,7,15045.91,0,0
+P1496,54,Female,Pediatrics,Emergency,2024-06-24,2024-07-06,12,8230.46,0,1
+P1497,45,Male,Pediatrics,Urgent,2024-03-28,2024-04-11,14,6604.2,0,1
+P1498,29,Female,Orthopedics,Urgent,2024-10-13,2024-10-26,13,11862.51,0,1
+P1499,85,Female,Neurology,Elective,2024-06-06,2024-06-13,7,12360.02,0,1
+P1500,38,Male,Pediatrics,Urgent,2024-01-28,2024-02-11,14,8230.72,0,1
